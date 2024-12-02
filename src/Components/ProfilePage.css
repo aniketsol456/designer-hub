@@ -1,0 +1,28 @@
+.profile-page {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f1f1;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.logout-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px; /* Space between posts and logout button */
+}
+
+.logout-button {
+    padding: 12px 25px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #e63946;
+}

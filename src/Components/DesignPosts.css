@@ -1,0 +1,40 @@
+/* src/components/DesignPosts.css */
+.design-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.design-post {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.design-post img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.design-description {
+    padding: 10px;
+}
+
+.design-description p {
+    color: #333;
+    font-size: 16px;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 600px) {
+    .design-posts {
+        padding: 10px;
+    }
+
+    .design-post img {
+        height: 200px;
+    }
+}
